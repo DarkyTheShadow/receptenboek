@@ -1,1 +1,101 @@
-# Styling here please
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+    background-color: grey;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+h1 {
+    background-color: #A25eeb;
+    border-radius: 1rem;
+    color: aliceblue;
+    text-align: center;
+}
+
+h2 {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+center {
+    background-color: #Fec3ff;
+}
+
+body {
+    background-color: #Fec3ff;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 0.5rem;
+    background-color: #b25eeb;
+    font-weight: 700;
+    color: #Ffc3ff;
+    border-radius: 1rem;
+    width: 40%;
+
+    margin: auto;
+}
+
+.navbar a {
+    transition: color ease-in-out 0.2s;
+    text-decoration: none;
+}
+
+.navbar_title {
+    align-self: flex-start;
+    justify-self: flex-start;
+}
+
+.navbar a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+a {
+    color: inherit;
+}
+
+
+.page{
+    display: flex;
+    justify-content: left;
+}
+.mainpage{
+    width: 1000px;
+    
+}
+.photo{
+    width: auto;
+}
+.photoindex{
+    width:50%;
+    height: 50%;
+}
+.info{
+    display: block;
+    align-items: center;
+    justify-content: left;
+    padding-inline: 1rem;
+    background-color: #A25eeb;
+    font-weight: 500;
+    color: #Ffc3ff;
+    border-radius: 1rem;
+    width: 80%;
+
+    margin-top: 10px;
+    
+}
